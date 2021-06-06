@@ -1,0 +1,25 @@
+
+@include grid();
+
+.page {
+    font-family: $font-dafault;
+    font-size: $default-font-size;
+    line-height: 1.4;
+    min-height: 100vh;
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 (-$default-gap);
+}
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: $default-gap;
+}
+// :focus {
+//     box-shadow: 0 0 5px blue;
+// }
+
+// transform: translate(-37px, 52px);

@@ -1,0 +1,33 @@
+.about {
+    background-color: #00b2b1;
+}
+.col-about{
+    display: flex;
+}
+
+.about-img {
+
+&__image {
+    transform: translate(-38px, 20px);
+}
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: $color-white;
+
+		&__heading {
+            font-family: $font-default-name , $follback;
+            font-size: 90px;
+            
+		}
+
+		
+
+		&__text , &__text-next {
+            font-size: 17px;
+            line-height: 1.9;
+		}
+}

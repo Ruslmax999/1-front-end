@@ -1,0 +1,42 @@
+.header {
+    padding: 36px 0 44px 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+ /*   &__logo {
+        
+    }*/
+}
+.header-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.navigation {
+
+    
+}*/
+.navigation-list {
+    display: flex;
+    justify-content:flex-end;
+    padding: 0 4px;
+
+		&__item {
+        padding: 14px 18px;
+        font-size: 16px;
+
+		}
+}
+.item-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Myriad Pro', $follback ;
+    
+}
+.item-link:hover {
+    border-top: 3px solid #ff6033;
+    text-decoration: none;
+}
+
+
